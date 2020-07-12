@@ -1,0 +1,12 @@
+#main-header {
+    background-image: url("./Images/NarutoAndBleach.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(62, 226, 238);
+    height: 18%;
+    max-height: 18%;
+    width: 100%;
+    max-width: 100%;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
