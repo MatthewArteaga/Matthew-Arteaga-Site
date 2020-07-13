@@ -6,4 +6,15 @@ header {
     /* padding-top: 50px; */
 }
 
-
+#main-header {
+    background-image: url("../Images/NarutoAndBleach.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(62, 226, 238);
+    height: 8%;
+    max-height: 8%;
+    width: 100%;
+    max-width: 100%;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
