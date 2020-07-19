@@ -1,0 +1,10 @@
+#home-container {
+    height: 687px;
+    background-image: url("../Images/ItachiBlackAndWhite.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    margin: 0px;
+}
