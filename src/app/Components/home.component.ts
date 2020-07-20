@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Router } from "@angular/router";
+import { RedirectService } from "../Services/redirect.service";
 
 @Component({
     selector: 'home',
@@ -7,5 +7,9 @@ import { Router } from "@angular/router";
     styleUrls: ['../Styles/home.component.css']
 })
 export class HomeComponent {
+    constructor(private externalRedirectCheck: RedirectService) { }
 
+    onClick(link: string) {
+        this.externalRedirectCheck.navigate(link);
+    }
 }
