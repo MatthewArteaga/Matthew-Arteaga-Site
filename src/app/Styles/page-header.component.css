@@ -1,20 +1,21 @@
-header {
-    text-align: center;
-    height: 100%;
-    max-height: inherit;
-    font-size: 48px;
-    /* padding-top: 50px; */
+a {
+    color: khaki;
 }
 
 #main-header {
+    height: 100%;
+    text-align: center;
+}
+
+#header-content {
+    color: khaki;
+    height: 17%;
     background-image: url("../Images/NarutoAndBleach.gif");
     background-repeat: no-repeat;
     background-size: cover;
-    color: rgb(62, 226, 238);
-    height: 8%;
-    max-height: 8%;
-    width: 100%;
-    max-width: 100%;
-    padding-top: 36px;
-    padding-bottom: 36px;
+    padding-top: 20px;
+}
+
+h1 {
+    margin-top: 0px;
 }
