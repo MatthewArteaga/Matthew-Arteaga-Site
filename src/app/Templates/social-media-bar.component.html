@@ -1,0 +1,9 @@
+<div class="media-container">
+    <div id="media-linkedin" [@onOffLinkedIn]="isOnLinkedIn ? 'on' : 'off'" (mouseenter)="toggle('LinkedIn')"
+        (mouseleave)="toggle('LinkedIn')" (click)="onClick('https://www.linkedin.com/in/matthew-arteaga-00a2771b3')">
+    </div>
+    <div id="media-github" [@onOffGitHub]="isOnGitHub ? 'on' : 'off'" (mouseenter)="toggle('GitHub')"
+        (mouseleave)="toggle('GitHub')" (click)="onClick('https://github.com/MatthewArteaga')"></div>
+    <div id="media-instagram" [@onOffInstagram]="isOnInstagram ? 'on' : 'off'" (mouseenter)="toggle('Instagram')"
+        (mouseleave)="toggle('Instagram')" (click)="onClick('https://www.instagram.com/marteagaj/')"></div>
+</div>

@@ -3,15 +3,11 @@
     min-height: 482%;
     padding-top: 16px;
 
-    background-image: url("../Images/ItachiBlackAndWhite.gif");
+    background-image: url("../Images/Backgrounds/ItachiBlackAndWhite.gif");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 p {
     margin: 0px;
-}
-
-ul {
-    margin-bottom: 0px;
 }

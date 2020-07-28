@@ -4,11 +4,18 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RedirectService } from "../../Services/redirect.service";
 
 import { HomeComponent } from "../../Components/home.component";
+import { SocialMediaBarComponent } from "../../Components/social-media-bar.component";
 
 @NgModule({
-    declarations: [HomeComponent],
+    declarations: [
+        HomeComponent,
+        SocialMediaBarComponent
+    ],
     imports: [BrowserModule],
-    exports: [HomeComponent],
+    exports: [
+        HomeComponent,
+        SocialMediaBarComponent
+    ],
     providers: [RedirectService]
 })
 export class HomeModule { }

@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
+import { RedirectService } from "../Services/redirect.service";
 import { trigger, state, style, animate, transition } from '@angular/animations';
 
 @Component({
-    selector: 'work',
-    templateUrl: '../Templates/work.component.html',
-    styleUrls: ['../Styles/work.component.css'],
+    selector: 'social-media',
+    templateUrl: '../Templates/social-media-bar.component.html',
+    styleUrls: ['../Styles/social-media-bar.component.css'],
     animations: [
         trigger('onOffLinkedIn', [
             // ...
@@ -59,6 +60,25 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
         ]),
     ]
 })
-export class WorkComponent {
+export class SocialMediaBarComponent {
+    constructor(private externalRedirectCheck: RedirectService) { }
 
+    isOnLinkedIn = false;
+    isOnGitHub = false;
+    isOnInstagram = false;
+
+
+    toggle(button: string) {
+        if (button === 'LinkedIn') {
+            this.isOnLinkedIn = !this.isOnLinkedIn;
+        } else if (button === 'GitHub') {
+            this.isOnGitHub = !this.isOnGitHub;
+        } else {
+            this.isOnInstagram = !this.isOnInstagram;
+        }
+    }
+
+    onClick(link: string) {
+        this.externalRedirectCheck.navigate(link);
+    }
 }
