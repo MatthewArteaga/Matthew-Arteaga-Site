@@ -117,8 +117,13 @@
               "devServerTarget": "Matthew-Arteaga-Site:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "Matthew-Arteaga-Site"
 }
