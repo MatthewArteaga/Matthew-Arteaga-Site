@@ -6,6 +6,23 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
     templateUrl: '../Templates/page-not-found.component.html',
     styleUrls: ['../Styles/page-not-found.component.css'],
     animations: [
+        trigger('onOffGmail', [
+            // ...
+            state('on', style({
+                height: '100px',
+                width: '100px',
+            })),
+            state('off', style({
+                height: '75px',
+                width: '75px',
+            })),
+            transition('on => off', [
+                animate('0.10s')
+            ]),
+            transition('off => on', [
+                animate('0.10s')
+            ]),
+        ]),
         trigger('onOffLinkedIn', [
             // ...
             state('on', style({
