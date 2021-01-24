@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { HomeModule } from "./Modules/Home/home.module";
 import { AboutModule } from "./Modules/About/about.module";
+import { SchoolModule } from "./Modules/School/school.module";
 import { WorkModule } from "./Modules/Work/work.module";
 import { PageNotFoundModule } from "./Modules/404/page-not-found.module";
 
@@ -22,6 +23,7 @@ import appRoutes from './routerConfig';
     BrowserAnimationsModule,
     HomeModule,
     AboutModule,
+    SchoolModule,
     WorkModule,
     PageNotFoundModule,
     RouterModule.forRoot(appRoutes)

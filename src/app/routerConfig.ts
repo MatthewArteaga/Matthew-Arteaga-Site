@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './Components/home.component';
 import { AboutComponent } from './Components/about.component';
+import { SchoolComponent } from "./Components/school.component";
 import { WorkComponent } from './Components/work.component';
 import { PageNotFoundComponent } from './Components/page-not-found.component';
 
@@ -12,6 +13,10 @@ const appRoutes: Routes = [
   {
     path: 'about',
     component: AboutComponent
+  },
+  {
+    path: 'school',
+    component: SchoolComponent
   },
   {
     path: 'work',

@@ -1,0 +1,18 @@
+#school-container {
+    min-height: 100%;
+    padding-top: 16px;
+    background-image: url("../Images/Backgrounds/cool-honeycomb-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#school-main-text {
+    color: #e3e4b2;
+    margin-left: 22.5%;
+    margin-right: 22.5%;
+    font-size: 2em;
+}
+
+p {
+    margin: 0px;
+}

@@ -14,11 +14,6 @@ h1 {
     color: #000000;
     height: 100%;
     background-color: #ececec;
-    /* background-image: url("../Images/Backgrounds/geometric-background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; */
-    /* padding-top: 20px; */
-
 }
 
 #main-header {
@@ -28,7 +23,7 @@ h1 {
 
 #nav-link-home {
     font-size: 2em;
-    width: 33.33%;
+    width: 25%;
     border-width: 0em;
     background-image: url("../Images/Backgrounds/cool-honeycomb-background.jpg");
     background-repeat: no-repeat;
@@ -38,7 +33,17 @@ h1 {
 
 #nav-link-about {
     font-size: 2em;
-    width: 33.33%;
+    width: 25%;
+    border-width: 0em;
+    background-image: url("../Images/Backgrounds/cool-honeycomb-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1em
+}
+
+#nav-link-school {
+    font-size: 2em;
+    width: 25%;
     border-width: 0em;
     background-image: url("../Images/Backgrounds/cool-honeycomb-background.jpg");
     background-repeat: no-repeat;
@@ -48,15 +53,10 @@ h1 {
 
 #nav-link-work {
     font-size: 2em;
-    width: 33.33%;
+    width: 25%;
     border-width: 0em;
     background-image: url("../Images/Backgrounds/cool-honeycomb-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 1em
 }
-/* 
-#site-welcome {
-    font-size: 7em;
-    margin: 0em;
-} */
