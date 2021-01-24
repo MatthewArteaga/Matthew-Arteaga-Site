@@ -1,11 +1,16 @@
 #home-container {
-    color: khaki;
-    min-height: 482%;
+    min-height: 100%;
     padding-top: 16px;
-
-    background-image: url("../Images/Backgrounds/ItachiBlackAndWhite.gif");
+    background-image: url("../Images/Backgrounds/cool-honeycomb-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#home-main-text {
+    color: #e3e4b2;
+    margin-left: 22.5%;
+    margin-right: 22.5%;
+    font-size: 2em;
 }
 
 p {

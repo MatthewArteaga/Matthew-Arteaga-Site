@@ -3,6 +3,13 @@
     margin-right: 30%;
 }
 
+#media-gmail {
+    background-image: url("../Images/Icons/GmailIcon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+
 #media-linkedin {
     background-image: url("../Images/Icons/LinkedInIcon.png");
     background-repeat: no-repeat;
