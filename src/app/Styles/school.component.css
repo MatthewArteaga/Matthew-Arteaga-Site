@@ -8,11 +8,12 @@
 
 #school-main-text {
     color: #e3e4b2;
-    margin-left: 22.5%;
-    margin-right: 22.5%;
+    margin-left: 5%;
+    margin-right: 45%;
     font-size: 2em;
+    text-align: left;
 }
 
 p {
-    margin: 0px;
+    /* margin: 0px; */
 }
