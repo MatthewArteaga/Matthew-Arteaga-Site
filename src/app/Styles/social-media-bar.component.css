@@ -4,28 +4,28 @@
 }
 
 #media-gmail {
-    background-image: url("../Images/Icons/GmailIcon.png");
+    background-image: url("../../assets/Images/Icons/GmailIcon.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: inline-block;
 }
 
 #media-linkedin {
-    background-image: url("../Images/Icons/LinkedInIcon.png");
+    background-image: url("../../assets/Images/Icons/LinkedInIcon.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: inline-block;
 }
 
 #media-github {
-    background-image: url("../Images/Icons/GitHubIcon.png");
+    background-image: url("../../assets/Images/Icons/GithubIcon.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: inline-block;
 }
 
 #media-instagram {
-    background-image: url("../Images/Icons/InstagramIcon.png");
+    background-image: url("../../assets/Images/Icons/InstagramIcon.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: inline-block;

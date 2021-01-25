@@ -1,5 +1,5 @@
 a {
-    color: #e3e4b2;
+    color: #8c2cfa;
 }
 
 button:hover, button:focus {
@@ -22,40 +22,40 @@ h1 {
 }
 
 #nav-link-home {
-    font-size: 2em;
+    font-size: 2.25em;
     width: 25%;
     border-width: 0em;
-    background-image: url("../Images/Backgrounds/cool-honeycomb-background.jpg");
+    background-image: url("../../assets/Images/Backgrounds/cool-honeycomb-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 1em
 }
 
 #nav-link-about {
-    font-size: 2em;
+    font-size: 2.25em;
     width: 25%;
     border-width: 0em;
-    background-image: url("../Images/Backgrounds/cool-honeycomb-background.jpg");
+    background-image: url("../../assets/Images/Backgrounds/cool-honeycomb-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 1em
 }
 
 #nav-link-school {
-    font-size: 2em;
+    font-size: 2.25em;
     width: 25%;
     border-width: 0em;
-    background-image: url("../Images/Backgrounds/cool-honeycomb-background.jpg");
+    background-image: url("../../assets/Images/Backgrounds/cool-honeycomb-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 1em
 }
 
 #nav-link-work {
-    font-size: 2em;
+    font-size: 2.25em;
     width: 25%;
     border-width: 0em;
-    background-image: url("../Images/Backgrounds/cool-honeycomb-background.jpg");
+    background-image: url("../../assets/Images/Backgrounds/cool-honeycomb-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 1em

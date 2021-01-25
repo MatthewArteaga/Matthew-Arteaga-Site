@@ -9,7 +9,7 @@ p {
 #page-not-found-container {
     min-height: 100%;
     padding-top: 16px;
-    background-image: url("../Images/Backgrounds/cool-honeycomb-background.jpg");
+    background-image: url("../../assets/Images/Backgrounds/cool-honeycomb-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
