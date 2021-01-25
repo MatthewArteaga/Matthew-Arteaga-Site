@@ -7,6 +7,23 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
     templateUrl: '../Templates/social-media-bar.component.html',
     styleUrls: ['../Styles/social-media-bar.component.css'],
     animations: [
+        trigger('onOffGmail', [
+            // ...
+            state('on', style({
+                height: '100px',
+                width: '100px',
+            })),
+            state('off', style({
+                height: '75px',
+                width: '75px',
+            })),
+            transition('on => off', [
+                animate('0.10s')
+            ]),
+            transition('off => on', [
+                animate('0.10s')
+            ]),
+        ]),
         trigger('onOffLinkedIn', [
             // ...
             state('on', style({
@@ -66,6 +83,7 @@ export class SocialMediaBarComponent {
     isOnLinkedIn = false;
     isOnGitHub = false;
     isOnInstagram = false;
+    isOnGmail = false;
 
 
     toggle(button: string) {
@@ -73,6 +91,8 @@ export class SocialMediaBarComponent {
             this.isOnLinkedIn = !this.isOnLinkedIn;
         } else if (button === 'GitHub') {
             this.isOnGitHub = !this.isOnGitHub;
+        } else if (button === 'Gmail') {
+            this.isOnGmail = !this.isOnGmail;
         } else {
             this.isOnInstagram = !this.isOnInstagram;
         }

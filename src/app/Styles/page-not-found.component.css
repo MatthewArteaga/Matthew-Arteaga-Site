@@ -1,12 +1,15 @@
-#page-not-found-container {
-    min-height: 482%;
-    padding-top: 16px;
-
-    background-image: url("../Images/Backgrounds/ItachiBlackAndWhite.gif");
-    background-repeat: no-repeat;
-    background-size: cover;
+h1 {
+    color: #e3e4b2;
 }
 
 p {
     margin: 0px;
+}
+
+#page-not-found-container {
+    min-height: 100%;
+    padding-top: 16px;
+    background-image: url("../../assets/Images/Backgrounds/cool-honeycomb-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }

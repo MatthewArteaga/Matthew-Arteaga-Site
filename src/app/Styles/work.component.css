@@ -1,12 +1,44 @@
-#work-container {
-    min-height: 482%;
-    padding-top: 16px;
+.notable-word {
+    color: coral;
+    font-weight: bolder;
+}
 
-    background-image: url("../Images/Backgrounds/ItachiBlackAndWhite.gif");
+#work-container {
+    min-height: 100%;
+    padding-top: 16px;
+    background-image: url("../../assets/Images/Backgrounds/cool-honeycomb-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+#work-image-container {
+    width: 32%;
+    float: left;
+    height: 100%;
+    padding-top: 48px;
+    padding-left: 2.5%;
+}
+
+#work-main-text {
+    color: #e3e4b2;
+    font-size: 2.25em;
+    text-align: left;
+    width: 50%;
+    float: left;
+    height: 100%;
+    margin-left: 8%;
+    padding-left: 2%;
+    padding-right: 2%;
+    line-height: 2em;
+    font-weight: bold;
+}
+
+#clear {
+    clear: both;
+    color: #e3e4b2;
+    font-size: 1.25em;
+}
+
 p {
-    margin: 0px;
+    /* margin: 0px; */
 }

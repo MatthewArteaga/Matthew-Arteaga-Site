@@ -1,0 +1,43 @@
+#school-container {
+    min-height: 100%;
+    padding-top: 16px;
+    background-image: url("../../assets/Images/Backgrounds/cool-honeycomb-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#school-image-container {
+    width: 32%;
+    float: left;
+    height: 100%;
+    margin-top: 48px;
+}
+
+#school-main-text {
+    color: #e3e4b2;
+    font-size: 2.25em;
+    text-align: left;
+    width: 50%;
+    float: left;
+    height: 100%;
+    margin-left: 8%;
+    padding-left: 0%;
+    padding-right: 4%;
+    line-height: 2em;
+    font-weight: bold;
+}
+
+#clear {
+    clear: both;
+    color: #e3e4b2;
+    font-size: 1.25em;
+}
+
+.notable-word {
+    color: coral;
+    font-weight: bolder;
+}
+
+p {
+    /* margin: 0px; */
+}
